@@ -1,0 +1,467 @@
+﻿[2015.10.07-01.58.27:878][  0]Log file open, 10/06/15 21:58:27
+[2015.10.07-01.58.27:878][  0]LogInit:Display: Running engine for game: AnimationTutorial
+[2015.10.07-01.58.27:878][  0]LogInit:Display: RandInit(1747707617) SRandInit(1747707617).
+[2015.10.07-01.58.27:878][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.07-01.58.27:878][  0]LogStats: Stats thread started at 0.068697
+[2015.10.07-01.58.27:878][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.07-01.58.27:878][  0]LogInit: API Version: 2672455
+[2015.10.07-01.58.27:878][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.07-01.58.27:878][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.07-01.58.27:878][  0]LogInit: Build Configuration: Development
+[2015.10.07-01.58.27:878][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.07-01.58.27:878][  0]LogInit: Command line: 
+[2015.10.07-01.58.27:878][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.07-01.58.27:878][  0]LogInit: Rocket: 1
+[2015.10.07-01.58.27:885][  0]LogInit: Using libcurl 7.41.0
+[2015.10.07-01.58.27:885][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.07-01.58.27:885][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.07-01.58.27:885][  0]LogInit:  - other features:
+[2015.10.07-01.58.27:885][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.07-01.58.27:885][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.07-01.58.27:885][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.07-01.58.27:885][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.07-01.58.27:885][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.07-01.58.27:885][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.07-01.58.27:885][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.07-01.58.27:885][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.07-01.58.27:885][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.07-01.58.27:885][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.07-01.58.27:890][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.07-01.58.27:895][  0]LogInit: Object subsystem initialized
+[2015.10.07-01.58.27:896][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.07-01.58.27:896][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.07-01.58.27:904][  0]LogInit: Computer: ASSMASTER9000
+[2015.10.07-01.58.27:904][  0]LogInit: User: NolanRoach
+[2015.10.07-01.58.27:904][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.07-01.58.27:904][  0]LogInit: High frequency timer resolution =3.906245 MHz
+[2015.10.07-01.58.27:904][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.10.07-01.58.27:904][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.07-01.58.27:904][  0]LogMemory: Process Physical Memory: 53.77 MB used, 53.77 MB peak
+[2015.10.07-01.58.27:904][  0]LogMemory: Process Virtual Memory: 57.25 MB used, 57.25 MB peak
+[2015.10.07-01.58.27:904][  0]LogMemory: Physical Memory: 6985.17 MB used, 16259.31 MB total
+[2015.10.07-01.58.27:904][  0]LogMemory: Virtual Memory: 367.25 MB used, 134217728.00 MB total
+[2015.10.07-01.58.27:929][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.07-01.58.28:451][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2015.10.07-01.58.28:451][  0]LogD3D11RHI: Adapter has 4009MB of dedicated video memory, 0MB of dedicated system memory, and 8129MB of shared system memory, 2 output[s]
+[2015.10.07-01.58.28:455][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.07-01.58.28:455][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8129MB of shared system memory, 0 output[s]
+[2015.10.07-01.58.28:456][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.07-01.58.28:456][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8129MB of shared system memory, 0 output[s]
+[2015.10.07-01.58.28:456][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.07-01.58.28:459][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.07-01.58.28:459][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.07-01.58.28:467][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.07-01.58.28:482][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Intermediate/Shaders/WorkingDirectory/1836/).
+[2015.10.07-01.58.28:482][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Intermediate/Shaders/tmp/DE8E67034E41F260DBFB9E98CE00390D/'.
+[2015.10.07-01.58.28:482][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.07-01.58.30:250][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.07-01.58.30:254][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.07-01.58.30:258][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.07-01.58.30:262][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.07-01.58.30:266][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.07-01.58.30:269][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.07-01.58.30:272][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.07-01.58.30:274][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.07-01.58.30:277][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.07-01.58.30:280][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.07-01.58.30:282][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.07-01.58.30:285][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.07-01.58.30:285][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.07-01.58.30:301][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.07-01.58.30:303][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.07-01.58.30:306][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.07-01.58.30:309][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.07-01.58.30:309][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.07-01.58.30:370][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.07-01.58.30:404][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Nolan Roach/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.07-01.58.30:404][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nolan Roach/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.07-01.58.30:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.07-01.58.30:404][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.07-01.58.30:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.07-01.58.30:404][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.07-01.58.30:505][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.07-01.58.30:517][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nolan Roach/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.07-01.58.30:668][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.07-01.58.30:670][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.07-01.58.30:765][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.07-01.58.30:765][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.07-01.58.30:953][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.07-01.58.31:445][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.07-01.58.31:532][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.10.07-01.58.31:636][  0]SourceControl: Info Source control is disabled
+[2015.10.07-01.58.31:641][  0]SourceControl: Info Source control is disabled
+[2015.10.07-01.58.31:648][  0]SourceControl: Info Source control is disabled
+[2015.10.07-01.58.31:656][  0]SourceControl: Info Source control is disabled
+[2015.10.07-01.58.31:760][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.07-01.58.31:816][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.07-01.58.31:816][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.07-01.58.31:860][  0]LogEngine: Initializing Engine...
+[2015.10.07-01.58.31:862][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.07-01.58.31:866][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.10.07-01.58.31:952][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.07-01.58.31:961][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.07-01.58.31:969][  0]LogInit: FAudioDevice initialized.
+[2015.10.07-01.58.31:986][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Nolan Roach/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.07-01.58.31:990][  0]LogInit: Texture streaming: Enabled
+[2015.10.07-01.58.31:994][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.07-01.58.31:994][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.07-01.58.31:994][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9ae5733349511e1c7d151db67e055715|d734e79751424c239da680c4f9450b5b|a76e0573-8741-47b8-ae87-7738c4f65acd
+[2015.10.07-01.58.31:994][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.07-01.58.32:017][  0]LogInit: Transaction tracking system initialized
+[2015.10.07-01.58.32:041][  0]BlueprintLog: New page: Editor Load
+[2015.10.07-01.58.32:103][  0]LocalizationService: Info Localization service is disabled
+[2015.10.07-01.58.32:158][  0]LogConsoleResponse:Display: 
+[2015.10.07-01.58.32:243][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.07-01.58.32:283][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/' took 0.01s
+[2015.10.07-01.58.32:283][  0]SourceControl: Info Source control is disabled
+[2015.10.07-01.58.32:283][  0]Cmd: MAP LOAD FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.07-01.58.32:305][  0]LightingResults: New page: Lighting Build
+[2015.10.07-01.58.32:308][  0]MapCheck: New page: Map Check
+[2015.10.07-01.58.32:308][  0]LightingResults: New page: Lighting Build
+[2015.10.07-01.58.32:315][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EEBC8E160
+[2015.10.07-01.58.33:697][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.10.07-01.58.33:707][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.07-01.58.33:707][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.07-01.58.33:746][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.595ms to complete.
+[2015.10.07-01.58.33:746][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.463
+[2015.10.07-01.58.33:864][  0]LogCollectionManager: Loaded 0 collections in 0.001967 seconds
+[2015.10.07-01.58.33:936][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/Collections/' took 0.01s
+[2015.10.07-01.58.33:936][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Developers/NolanRoach/Collections/' took 0.01s
+[2015.10.07-01.58.33:936][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Collections/' took 0.01s
+[2015.10.07-01.58.33:936][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1867 classes and 333 folders.
+[2015.10.07-01.58.33:950][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.07-01.58.33:958][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.07-01.58.33:986][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.07-01.58.33:990][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.10.07-01.58.34:048][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.07-01.58.34:104][  0]LogLoad: Full Startup: 6.79 seconds (BP compile: 0.03 seconds)
+[2015.10.07-01.58.34:162][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.07-01.58.34:272][  0]LogRenderer: Reallocating scene render targets to support 904x456 (Frame:2).
+[2015.10.07-01.58.35:695][133]LogAssetRegistry: Asset discovery search completed in 4.1736 seconds
+[2015.10.07-01.58.35:695][133]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.07-01.58.35:695][133]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2015.10.07-01.58.47:121][477]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.07-01.58.47:488][477]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.10.07-01.58.47:590][477]LogMaterial: Missing cached shader map for material NewCharacterMaterial, compiling. 
+[2015.10.07-01.58.47:679][477]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.10.07-01.58.47:837][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2015.10.07-01.58.47:893][477]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.07-01.58.50:684][702]LogRenderer: Reallocating scene render targets to support 904x700 (Frame:1857).
+[2015.10.07-02.00.48:055][951]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.10.07-02.00.48:092][951]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.07-02.03.46:480][116]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterAnimBP', cached variable property's owner is '/Game/Character/CharacterAnimBP.SKEL_CharacterAnimBP_C'
+[2015.10.07-02.04.01:459][899]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterAnimBP', cached variable property's owner is '/Game/Character/CharacterAnimBP.SKEL_CharacterAnimBP_C'
+[2015.10.07-02.04.52:440][  0]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterAnimBP', cached variable property's owner is '/Game/Character/CharacterAnimBP.SKEL_CharacterAnimBP_C'
+[2015.10.07-02.04.57:250][577]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterAnimBP', cached variable property's owner is '/Game/Character/CharacterAnimBP.SKEL_CharacterAnimBP_C'
+[2015.10.07-02.04.59:458][842]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterAnimBP', cached variable property's owner is '/Game/Character/CharacterAnimBP.SKEL_CharacterAnimBP_C'
+[2015.10.07-02.05.45:281][319]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterAnimBP', cached variable property's owner is '/Game/Character/CharacterAnimBP.SKEL_CharacterAnimBP_C'
+[2015.10.07-02.05.51:381][ 51]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterAnimBP', cached variable property's owner is '/Game/Character/CharacterAnimBP.SKEL_CharacterAnimBP_C'
+[2015.10.07-02.06.07:791][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EEB441E40
+[2015.10.07-02.06.07:792][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EEB442340
+[2015.10.07-02.06.07:793][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003E9D0B3A60
+[2015.10.07-02.06.07:839][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterAnimBP" FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterAnimBP.uasset" SILENT=true
+[2015.10.07-02.06.07:894][ 17]LogSavePackage: Save=50.194496ms
+[2015.10.07-02.06.07:894][ 17]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterAnimBP1AA63F2243DC463F950CD183F3D54741.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterAnimBP.uasset'
+[2015.10.07-02.06.07:896][ 17]LogSavePackage: Total save time: 55.892807ms
+[2015.10.07-02.06.07:896][ 17]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterAnimBP.uasset
+[2015.10.07-02.06.09:870][254]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.10.07-02.06.09:946][254]BlueprintEditorCompileResults: Info [0462.64] Compile of CharacterAnimBP successful! [in 76 ms]
+[2015.10.07-02.08.34:138][253]LogRenderer: Reallocating scene render targets to support 904x720 (Frame:51339).
+[2015.10.07-02.08.38:899][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset" SILENT=true
+[2015.10.07-02.08.38:911][819]LogSavePackage: Save=12.019728ms
+[2015.10.07-02.08.38:911][819]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterBP89B54C0640B84733447E6CB9BE1B5DA6.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset'
+[2015.10.07-02.08.38:912][819]LogSavePackage: Total save time: 13.113618ms
+[2015.10.07-02.08.38:912][819]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset
+[2015.10.07-02.08.39:918][940]BlueprintLog: New page: Compile CharacterBP
+[2015.10.07-02.08.40:012][940]BlueprintEditorCompileResults: Info [0612.70] Compile of CharacterBP successful! [in 94 ms]
+[2015.10.07-02.12.46:472][778]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.12.46:526][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset" SILENT=true
+[2015.10.07-02.12.46:550][778]LogSavePackage: Save=18.078232ms
+[2015.10.07-02.12.46:550][778]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterBPB816ED3B4F24DEE2C861CDAEF7D1B194.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset'
+[2015.10.07-02.12.46:550][778]LogSavePackage: Total save time: 22.995483ms
+[2015.10.07-02.12.46:550][778]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset
+[2015.10.07-02.13.05:555][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.13.06:422][160]BlueprintLog: New page: Compile CharacterBP
+[2015.10.07-02.13.06:530][160]BlueprintEditorCompileResults: Info [0879.22] Compile of CharacterBP successful! [in 108 ms]
+[2015.10.07-02.13.18:928][637]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.07-02.13.33:009][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.14.37:727][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.07-02.14.37:745][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.018
+[2015.10.07-02.14.37:748][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/CharacterBP] ([1] browsable assets)...
+[2015.10.07-02.14.37:759][ 44]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Character/CharacterBP.CharacterBP]
+[2015.10.07-02.14.37:759][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/CharacterBP]
+[2015.10.07-02.14.37:777][ 44]LogSavePackage: Save=17.294615ms
+[2015.10.07-02.14.37:777][ 44]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterBP_Auto171D9C8F34C309D8AC05B68935956A77A.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/Autosaves/Game/Character/CharacterBP_Auto1.uasset'
+[2015.10.07-02.14.37:778][ 44]LogSavePackage: Total save time: 18.318616ms
+[2015.10.07-02.14.37:778][ 44]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/Autosaves/Game/Character/CharacterBP_Auto1.uasset
+[2015.10.07-02.14.37:778][ 44]LogFileHelpers: Auto-saving content packages took 0.032
+[2015.10.07-02.14.48:320][308]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.14.49:642][467]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.07-02.14.49:693][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset" SILENT=true
+[2015.10.07-02.14.49:712][467]LogSavePackage: Save=17.507862ms
+[2015.10.07-02.14.49:712][467]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterBPD2D34DBF4E9B968CFD9961AB117C34AF.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset'
+[2015.10.07-02.14.49:713][467]LogSavePackage: Total save time: 19.873306ms
+[2015.10.07-02.14.49:713][467]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset
+[2015.10.07-02.14.57:270][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.14.58:992][579]BlueprintLog: New page: Compile CharacterBP
+[2015.10.07-02.14.59:075][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.14.59:097][579]BlueprintEditorCompileResults: Info [0991.79] Compile of CharacterBP successful! [in 104 ms]
+[2015.10.07-02.15.32:839][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.16.16:456][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.07-02.16.27:493][163]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.07-02.17.07:062][906]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.07-02.17.11:701][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.07-02.17.49:634][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.07-02.17.49:683][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset" SILENT=true
+[2015.10.07-02.17.49:732][  4]LogSavePackage: Save=44.751930ms
+[2015.10.07-02.17.49:733][  4]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterBP7D00D40247731F8D874BCC9791AC05DA.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset'
+[2015.10.07-02.17.49:733][  4]LogSavePackage: Total save time: 49.538624ms
+[2015.10.07-02.17.49:733][  4]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset
+[2015.10.07-02.17.59:937][223]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.18.07:950][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.07-02.18.08:002][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset" SILENT=true
+[2015.10.07-02.18.08:022][184]LogSavePackage: Save=18.485527ms
+[2015.10.07-02.18.08:022][184]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterBP1356AD114A010F930C41DDA6D38FD398.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset'
+[2015.10.07-02.18.08:023][184]LogSavePackage: Total save time: 20.527385ms
+[2015.10.07-02.18.08:023][184]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset
+[2015.10.07-02.18.40:758][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.18.58:774][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.07-02.18.58:832][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset" SILENT=true
+[2015.10.07-02.18.58:853][263]LogSavePackage: Save=19.572248ms
+[2015.10.07-02.18.58:853][263]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterBP6F07270D40B06F66146C839564A3ECC8.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset'
+[2015.10.07-02.18.58:854][263]LogSavePackage: Total save time: 21.549083ms
+[2015.10.07-02.18.58:854][263]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset
+[2015.10.07-02.19.15:470][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.19.17:343][480]BlueprintLog: New page: Compile CharacterBP
+[2015.10.07-02.19.17:457][480]BlueprintEditorCompileResults: Info [1250.15] Compile of CharacterBP successful! [in 113 ms]
+[2015.10.07-02.19.18:234][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/CharacterBP" FILE="D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset" SILENT=true
+[2015.10.07-02.19.18:255][570]LogSavePackage: Save=19.907097ms
+[2015.10.07-02.19.18:255][570]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/CharacterBP2F96DE694DE4A9ABA156B5AB25BF55AE.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset'
+[2015.10.07-02.19.18:255][570]LogSavePackage: Total save time: 20.995356ms
+[2015.10.07-02.19.18:255][570]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/Character/CharacterBP.uasset
+[2015.10.07-02.19.50:405][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.19.50:422][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003E920D4400
+[2015.10.07-02.19.50:422][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003E89E014E0
+[2015.10.07-02.19.50:423][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EC1E83BA0
+[2015.10.07-02.19.50:519][900]LogSavePackage: Save=78.193253ms
+[2015.10.07-02.19.50:519][900]LogSavePackage: Moving 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Saved/Minimal_Default7A6B78EE4C567E9AE312148142455E70.tmp' to 'D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.10.07-02.19.50:520][900]LogSavePackage: Total save time: 95.260285ms
+[2015.10.07-02.19.50:520][900]LogSavePackage:Warning: Finished SavePackage D:/GitHub/JustMakeAGameAlready/Fall-2015/UnrealEngineStuff/AnimationTutorial/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.10.07-02.19.53:913][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.07-02.19.53:930][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003E947B4180
+[2015.10.07-02.19.53:995][305]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.07-02.19.54:218][306]Cmd: QUIT_EDITOR
+[2015.10.07-02.19.54:399][306]LogExit: Preparing to exit.
+[2015.10.07-02.19.55:048][306]LogExit: Editor shut down
+[2015.10.07-02.19.55:048][306]LogExit: Transaction tracking system shut down
+[2015.10.07-02.19.55:049][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EDB81AAC0
+[2015.10.07-02.19.55:049][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EF6F13880
+[2015.10.07-02.19.55:050][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003E9CDBAA20
+[2015.10.07-02.19.55:050][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003E9CDBA2A0
+[2015.10.07-02.19.55:050][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EA0BC79C0
+[2015.10.07-02.19.55:052][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003ED8B6C400
+[2015.10.07-02.19.55:052][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EF7437E20
+[2015.10.07-02.19.55:052][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003EF7437560
+[2015.10.07-02.19.55:172][306]LogExit: Object subsystem successfully closed.
+[2015.10.07-02.19.55:180][306]LogD3D11RHI: Shutdown
+[2015.10.07-02.19.55:180][306]LogD3D11RHI: CleanupD3DDevice
+[2015.10.07-02.19.55:231][306]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.07-02.19.55:248][306]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.10.07-02.19.55:248][306]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.07-02.19.55:248][306]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.07-02.19.55:248][306]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.07-02.19.55:248][306]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.07-02.19.55:248][306]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.07-02.19.55:249][306]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.07-02.19.55:696][306]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.07-02.19.55:697][306]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.07-02.19.55:698][306]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.07-02.19.55:899][306]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.07-02.19.55:899][306]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.07-02.19.55:899][306]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.07-02.19.55:899][306]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.07-02.19.55:899][306]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.07-02.19.55:899][306]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.07-02.19.55:899][306]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.07-02.19.55:899][306]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.07-02.19.55:907][306]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.07-02.19.55:908][306]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.07-02.19.55:908][306]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.07-02.19.55:908][306]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.07-02.19.55:909][306]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.07-02.19.55:995][306]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.07-02.19.55:996][306]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.07-02.19.55:996][306]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.07-02.19.56:097][306]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.07-02.19.56:097][306]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.07-02.19.56:097][306]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.07-02.19.56:099][306]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.07-02.19.56:100][306]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.07-02.19.56:101][306]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.07-02.19.56:116][306]LogDerivedDataCache: Shutdown
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.07-02.19.56:116][306]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.07-02.19.57:118][306]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.07-02.19.57:119][306]LogExit: Exiting.
+[2015.10.07-02.19.57:130][306]Log file closed, 10/06/15 22:19:57
