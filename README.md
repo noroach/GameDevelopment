@@ -1,4 +1,4 @@
-# JustMakeAGameAlready
+# Game Dev and Programming Practice
 Author: Nolan Roach
 
 This repo is for personal programming and game projects that I will be working on over the course of the year.
